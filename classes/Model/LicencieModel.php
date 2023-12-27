@@ -1,6 +1,6 @@
 <?php
 
-class LicencieModel {
+class LicenceModel {
     private $id;
     private $numeroLicence;
     private $nom;
@@ -11,7 +11,7 @@ class LicencieModel {
 
         $this->id = $id;
 
-        $this->nomLicence = $nomLicence;
+        $this->numeroLicence = $numeroLicence;
 
         $this->nom = $nom;
 
@@ -28,25 +28,13 @@ class LicencieModel {
 
     }
 
-    public function getNomLicence() {
-
-        return $this->nomLicence;
-
-    }
-
     public function getNom() {
 
         return $this->nom;
 
     }
 
-    public function getPrenom() {
-
-        return $this->prenom;
-
-    } 
-
-    public function getContactl() {
+    public function getContact() {
 
         return $this->contact;
 
@@ -65,9 +53,9 @@ class LicencieModel {
 
     }
 
-    public function setNomLicence($nomLicence) {
+    public function setNumLicence($numeroLicence) {
 
-        $this->nom=$nomLicence;
+        $this->nom=$numeroLicence;
 
     }
 
